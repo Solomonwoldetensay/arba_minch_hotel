@@ -1,0 +1,110 @@
+body {
+	background-color: tomato;
+	color: whitesmoke;
+}
+input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 0.5em;
+}
+nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: tomato;
+	border-radius: 0.5em;
+}
+footer {
+	padding: 1em;
+	background-color: burlywood;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+
+li {
+	list-style: none;
+}
+li a {
+	text-decoration: none;
+	padding: 0.5em;
+	margin: 0.5em;
+	border-radius: 0.5em;
+	background-color: white;
+	color: black;
+}
+
+li a:hover {
+	background-color: gray;
+	color: white;
+}
+
+a.selected {
+	background-color: black;
+	color: white;
+}
+
+#content img {
+	z-index: -1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+}
+
+#home,
+#about,
+#gym {
+	display: flex;
+	height: 70vh;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#gym-equiptment {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#gym-equiptment img {
+	width: 80%;
+	padding: 1em;
+}
+
+#menu li {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+}
+#menu li div {
+	display: flex;
+	flex-direction: row;
+	border-radius: 0.5em;
+	align-items: flex-start;
+	gap: 0.5em;
+}
+#menu li div div {
+	display: flex;
+	flex-direction: column;
+}
+#menu button {
+	border: none;
+	background-color: black;
+	color: white;
+	border-radius: 0.5em;
+	padding: 0.5em;
+}
+
+#menu img {
+	width: 50%;
+	border-radius: 0.5em;
+}
